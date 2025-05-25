@@ -50,9 +50,66 @@ El sistema está compuesto por una arquitectura modular y escalable:
 - Integración de servicios externos REST.
 - Comunicación entre servicios vía HTTP (RESTful).
 
+## 📥 Instalación y ejecución del proyecto
+
+### 🔁 1. Clonar el repositorio
+
+```bash
+git clone https://github.com/usuario/los-clavitos-de-pablito.git
+cd los-clavitos-de-pablito
+```
+
+---
+
+### ⚙️ 2. Instalación de dependencias del frontend (Angular + Ionic)
+
+```bash
+cd frontend
+npm install
+ionic serve
+```
+
+Esto abrirá automáticamente la aplicación en [http://localhost:8100](http://localhost:8100).
+
+---
+
+### 🌐 3. Levantar API de Express (Node.js)
+
+```bash
+cd ../api-express
+npm install
+node index.js
+```
+
+- Asegúrate de tener instalado **Node.js**.
+- El servidor se levantará en [http://localhost:3000](http://localhost:3000) (o el puerto definido en tu archivo de configuración).
+
+---
+
+### 🐍 4. Levantar API de FastAPI (Python)
+
+```bash
+cd ../api-fastapi
+pip install -r requirements.txt
+uvicorn main:app --reload
+```
+
+- Asegúrate de tener **Python 3.8+** y `pip` instalado.
+- Por defecto, la API estará disponible en [http://127.0.0.1:8000/docs](http://127.0.0.1:8000/docs) (Swagger UI).
+
+Si usas entornos virtuales en Python:
+
+```bash
+python -m venv venv
+source venv/bin/activate  # En Linux/Mac
+venv\Scriptsctivate     # En Windows
+```
+
+---
+
 ## 📈 Conclusión
 
-"Los Clavitos de Pablito" representa una solución completa de transformación digital para una empresa tradicional como FERREMAS. El proyecto no solo mejora la experiencia del cliente, sino que también optimiza los procesos internos, incrementa la eficiencia operativa y abre nuevas oportunidades de expansión comercial. La integración de tecnologías modernas y APIs externas proporciona una base sólida para el crecimiento futuro del negocio.
+**"Los Clavitos de Pablito"** representa una solución completa de transformación digital para una empresa tradicional como **FERREMAS**. El proyecto no solo mejora la experiencia del cliente, sino que también optimiza los procesos internos, incrementa la eficiencia operativa y abre nuevas oportunidades de expansión comercial. La integración de tecnologías modernas y APIs externas proporciona una base sólida para el crecimiento futuro del negocio.
 
 ---
 
