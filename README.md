@@ -1,18 +1,18 @@
-# 🔧 Los Clavitos de Pablito - Sistema de Gestión eCommerce para FERREMAS
+# 🔧 Los Clavitos de Pablito - Sistema de Gestión eCommerce
 
 ## 📘 Introducción
 
-Este proyecto nace como respuesta al caso propuesto por la asignatura **ASY5131 - Integración de Plataformas**, cuyo objetivo es aplicar conocimientos de análisis, planificación e integración de servicios en un contexto real de transformación digital. El caso se centra en **FERREMAS**, una empresa chilena del rubro de ferretería y construcción, con presencia física en diversas regiones del país.
+Este proyecto nace como respuesta al caso propuesto por la asignatura **ASY5131 - Integración de Plataformas**, cuyo objetivo es aplicar conocimientos de análisis, planificación e integración de servicios en un contexto real de transformación digital. El caso se centra en **LOS CLAVITOS DE PABLITO**, una empresa chilena del rubro de ferretería y construcción, con presencia física en diversas regiones del país.
 
 ## 🧩 El problema
 
-A raíz de la pandemia del COVID-19 y las restricciones de movilidad, FERREMAS enfrentó una caída significativa en sus ventas debido a la falta de un canal de venta online. La empresa operaba exclusivamente de forma presencial, lo que evidenció una necesidad urgente de modernizar sus procesos mediante la implementación de una **plataforma de comercio electrónico integrada**.
+A raíz de la pandemia del COVID-19 y las restricciones de movilidad, LOS CLAVITOS DE PABLITO enfrentó una caída significativa en sus ventas debido a la falta de un canal de venta online. La empresa operaba exclusivamente de forma presencial, lo que evidenció una necesidad urgente de modernizar sus procesos mediante la implementación de una **plataforma de comercio electrónico integrada**.
 
 ## ✅ La solución
 
-Se propone el desarrollo de un sistema de eCommerce denominado **"Los Clavitos de Pablito"**, que responde a la necesidad de digitalizar los procesos operacionales de FERREMAS. La solución considera:
+Se propone el desarrollo de un sistema de eCommerce para la Ferretería **"Los Clavitos de Pablito"**, que responde a la necesidad de digitalizar los procesos operacionales de esta. La solución considera:
 
-- Implementación de una **aplicación web multiplataforma** desarrollada en **Angular + Ionic**.
+- Implementación de un **sistema web multiplataforma** desarrollada en **Angular + Ionic**.
 - Integración de múltiples roles de usuarios: Clientes, Administradores, Vendedores, Bodegueros y Contadores.
 - Automatización de procesos de compra, gestión de inventario, pagos y despachos.
 - Diseño de flujos de negocio a través de diagramas BPMN.
@@ -20,13 +20,14 @@ Se propone el desarrollo de un sistema de eCommerce denominado **"Los Clavitos d
 
 ## 🔌 Tecnologías y APIs utilizadas
 
-### 🖥️ Frontend
+### 🖥️ Frontend / Backend
 - Angular 17
 - Ionic Framework
+- Node.js
 
-### 🧠 Backend / APIs Internas
-- **API de usuarios y gestión de pedidos**: desarrollada con **Express.js**.
-- **API de facturación y control financiero**: implementada con **FastAPI (Python)**.
+### 🧠 APIs Internas
+- **API de usuarios**: desarrollada con **Express.js**.
+- **API de productos**: implementada con **FastAPI (Python)**.
 
 ### 🌐 APIs Externas
 - **API de PayPal**: integración para pagos seguros en línea.
@@ -45,7 +46,7 @@ Se propone el desarrollo de un sistema de eCommerce denominado **"Los Clavitos d
 ## 🗂️ Arquitectura general
 
 El sistema está compuesto por una arquitectura modular y escalable:
-- Frontend híbrido para distribución web y mobile.
+- Frontend para distribución web.
 - Dos APIs desarrolladas de forma desacoplada.
 - Integración de servicios externos REST.
 - Comunicación entre servicios vía HTTP (RESTful).
@@ -55,8 +56,8 @@ El sistema está compuesto por una arquitectura modular y escalable:
 ### 🔁 1. Clonar el repositorio
 
 ```bash
-git clone https://github.com/usuario/los-clavitos-de-pablito.git
-cd los-clavitos-de-pablito
+git clone https://github.com/Geraldine202/Ferreteria.git
+cd Ferreteria/
 ```
 
 ---
@@ -64,7 +65,6 @@ cd los-clavitos-de-pablito
 ### ⚙️ 2. Instalación de dependencias del frontend (Angular + Ionic)
 
 ```bash
-cd frontend
 npm install
 ionic serve
 ```
@@ -102,15 +102,33 @@ Si usas entornos virtuales en Python:
 ```bash
 python -m venv venv
 source venv/bin/activate  # En Linux/Mac
-venv\Scriptsctivate     # En Windows
+venv\\Scripts\\activate   # En Windows
+`venv\Scripts\activate`   # Tambien Tienes esta Opción que funciona de la misma forma para Windows    
 ```
 
 ---
 
 ## 📈 Conclusión
 
-**"Los Clavitos de Pablito"** representa una solución completa de transformación digital para una empresa tradicional como **FERREMAS**. El proyecto no solo mejora la experiencia del cliente, sino que también optimiza los procesos internos, incrementa la eficiencia operativa y abre nuevas oportunidades de expansión comercial. La integración de tecnologías modernas y APIs externas proporciona una base sólida para el crecimiento futuro del negocio.
+**"Los Clavitos de Pablito"** representa una solución completa de transformación digital para una empresa Ferretera. El proyecto no solo mejora la experiencia del cliente, sino que también optimiza los procesos internos, incrementa la eficiencia operativa y abre nuevas oportunidades de expansión comercial. La integración de tecnologías modernas y APIs externas proporciona una base sólida para el crecimiento futuro del negocio.
 
 ---
 
 **Desarrollado como parte de la evaluación académica del módulo ASY5131 - Integración de Plataformas.**
+
+---
+
+## 👨‍💻 Desarrollado por
+
+Este proyecto fue creado por el equipo de desarrollo, conformado por:
+
+- 👩‍💻 Daphne Cuadra  
+- 👩‍💻 Geraldine Inostroza  
+- 👨‍💻 Cristóbal Rivero  
+
+---
+
+<p align="center">
+  <b>Los Clavitos de Pablito</b> © 2025<br>
+  <i>"Transformando la ferretería tradicional en una experiencia digital de alto nivel"</i>
+</p>
