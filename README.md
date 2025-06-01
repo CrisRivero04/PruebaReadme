@@ -1,4 +1,4 @@
-# 🔧 Los Clavitos de Pablito - Sistema de Gestión eCommerce
+# 🔧 Los Clavitos de Pablito - Sistema Web de Compras
 
 ## 📘 Introducción
 
@@ -6,13 +6,13 @@ Este proyecto nace como respuesta al caso propuesto por la asignatura **ASY5131 
 
 ## 🧩 El problema
 
-A raíz de la pandemia del COVID-19 y las restricciones de movilidad, LOS CLAVITOS DE PABLITO enfrentó una caída significativa en sus ventas debido a la falta de un canal de venta online. La empresa operaba exclusivamente de forma presencial, lo que evidenció una necesidad urgente de modernizar sus procesos mediante la implementación de una **plataforma de comercio electrónico integrada**.
+A raíz de la pandemia del COVID-19 y las restricciones de movilidad, LOS CLAVITOS DE PABLITO enfrentó una caída significativa en sus ventas debido a la falta de un canal de venta online. La empresa operaba exclusivamente de forma presencial, lo que evidenció una necesidad urgente de modernizar sus procesos mediante la implementación de un **Sitio Web**.
 
 ## ✅ La solución
 
-Se propone el desarrollo de un sistema de eCommerce para la Ferretería **"Los Clavitos de Pablito"**, que responde a la necesidad de digitalizar los procesos operacionales de esta. La solución considera:
+Se propone el desarrollo de un sistema web para la Ferretería **"Los Clavitos de Pablito"**, que responde a la necesidad de digitalizar los procesos operacionales de esta. La solución considera:
 
-- Implementación de un **sistema web multiplataforma** desarrollada en **Angular + Ionic**.
+- Implementación de un **Sistema Web** desarrollado en **Angular + Ionic**.
 - Integración de múltiples roles de usuarios: Clientes, Administradores, Vendedores, Bodegueros y Contadores.
 - Automatización de procesos de compra, gestión de inventario, pagos y despachos.
 - Diseño de flujos de negocio a través de diagramas BPMN.
@@ -20,9 +20,11 @@ Se propone el desarrollo de un sistema de eCommerce para la Ferretería **"Los C
 
 ## 🔌 Tecnologías y APIs utilizadas
 
-### 🖥️ Frontend / Backend
-- Angular 17
+### 🖥️ Frontend
+- Angular 19
 - Ionic Framework
+
+### 🖥️ Backend
 - Node.js
 
 ### 🧠 APIs Internas
@@ -59,13 +61,18 @@ El sistema está compuesto por una arquitectura modular y escalable:
 git clone https://github.com/Geraldine202/Ferreteria.git
 cd Ferreteria/
 ```
-
 ---
 
 ### ⚙️ 2. Instalación de dependencias del frontend (Angular + Ionic)
 
 ```bash
 npm install
+```
+---
+
+### 🖥️ 3. Apertura del Sitio Web
+
+```bash
 ionic serve
 ```
 
@@ -73,7 +80,7 @@ Esto abrirá automáticamente la aplicación en [http://localhost:8100](http://l
 
 ---
 
-### 🌐 3. Levantar API de Express (Node.js)
+### 🌐 4. Levantar API de Express (Node.js)
 
 ```bash
 cd ../api-express
@@ -86,7 +93,7 @@ node index.js
 
 ---
 
-### 🐍 4. Levantar API de FastAPI (Python)
+### 🐍 5. Levantar API de FastAPI (Python)
 
 ```bash
 cd ../api-fastapi
