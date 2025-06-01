@@ -139,3 +139,34 @@ Este proyecto fue creado por el equipo de desarrollo, conformado por:
   <b>Los Clavitos de Pablito</b> © 2025<br>
   <i>"Transformando la ferretería tradicional en una experiencia digital de alto nivel"</i>
 </p>
+
+---
+
+## 🗃️ Configuración de la Base de Datos (Oracle SQL Developer)
+
+Para levantar la base de datos utilizada por el sistema, sigue estos pasos en **Oracle SQL Developer**:
+
+### 🔑 1. Crear usuario de base de datos
+
+Ejecuta las siguientes instrucciones con un usuario con privilegios de DBA (por ejemplo, `SYS AS SYSDBA`):
+
+```sql
+ALTER SESSION SET "_oracle_script" = TRUE;
+
+CREATE USER bd_clavitos IDENTIFIED BY bd_clavitos;
+
+GRANT ALL PRIVILEGES TO bd_clavitos;
+```
+
+> Esto crea el usuario `bd_clavitos` con todos los permisos necesarios.
+
+---
+
+### 📂 2. Cargar el script con los datos iniciales
+
+1. Descarga el archivo SQL desde el siguiente enlace:  
+   📥 [BD Actualizada Validada.docx](BD%20Actualizada%20Validada.docx)
+2. Abre Oracle SQL Developer y conéctate con el usuario `bd_clavitos`.
+3. Crea un nuevo archivo `.sql`, pega el contenido del documento y ejecútalo con **F5**.
+
+> El script incluye los registros para poblar las tablas de: regiones, comunas, usuarios, roles, productos, marcas, categorías, inventario, pedidos, pagos y reportes.
