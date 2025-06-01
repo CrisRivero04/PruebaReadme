@@ -165,8 +165,9 @@ GRANT ALL PRIVILEGES TO bd_clavitos;
 ### 📂 2. Cargar el script con los datos iniciales
 
 1. Descarga el archivo SQL desde el siguiente enlace:  
-   📥 [BD Actualizada Validada.docx](BD%20Actualizada%20Validada.docx)
+   📥 [BD_Actualizada_Validada.docx](sandbox:/mnt/data/BD_Actualizada_Validada.docx)
 2. Abre Oracle SQL Developer y conéctate con el usuario `bd_clavitos`.
 3. Crea un nuevo archivo `.sql`, pega el contenido del documento y ejecútalo con **F5**.
 
 > El script incluye los registros para poblar las tablas de: regiones, comunas, usuarios, roles, productos, marcas, categorías, inventario, pedidos, pagos y reportes.
+
