@@ -165,7 +165,7 @@ GRANT ALL PRIVILEGES TO bd_clavitos;
 ### 📂 2. Cargar el script con los datos iniciales
 
 1. Descarga el archivo SQL desde el siguiente enlace:  
-   📥 [BD_Actualizada_Validada.docx](sandbox:/mnt/data/BD_Actualizada_Validada.docx)
+   📥 [📥 Descargar BD_Actualizada_Validada.docx](sandbox:/mnt/data/BD_Actualizada_Validada.docx)
 2. Abre Oracle SQL Developer y conéctate con el usuario `bd_clavitos`.
 3. Crea un nuevo archivo `.sql`, pega el contenido del documento y ejecútalo con **F5**.
 
